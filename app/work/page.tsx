@@ -14,6 +14,13 @@ export default function Work() {
     <>
       <h2>Work</h2>
       <p className="muted">Free, open-source browser apps for cars. One main action per screen, glanceable while driving or charging.</p>
+      <p className="muted">
+        One library, one site: every app below lives in the same Faraday toolkit — same repo, same
+        Vercel deployment, same design (iOS-like, clean, 3D/glossy, transform/opacity motion) and
+        same rules: browser-only, no install, no subscription, GPS and data stay in your browser,
+        no paid service, no database. Signal Predictor is the one app hosted separately; the rest
+        run as routes on this site.
+      </p>
 
       <article className="card">
         <span className="tag">Live now</span>
@@ -25,7 +32,31 @@ export default function Work() {
         <p>
           <a href="https://tesla-signal-app.vercel.app">Live demo →</a>
           {" · "}
-          <a href="https://github.com/akhilsaikoppanatham/tesla-signal-app">GitHub →</a>
+          <a href="https://github.com/askakhil/tesla-signal-app">GitHub →</a>
+        </p>
+      </article>
+
+      <article className="card">
+        <span className="tag">Live now</span>
+        <h3>Vintage Speedometer</h3>
+        <p className="muted">
+          GPS analog dial with a brass ring and cream retro face, big digital readout, mph/km-h
+          toggle, trip distance and top speed. Includes a parked simulation preview.
+        </p>
+        <p>
+          <a href="/apps/speedometer">Open in browser →</a>
+        </p>
+      </article>
+
+      <article className="card">
+        <span className="tag">Live now</span>
+        <h3>Golden Hour Finder</h3>
+        <p className="muted">
+          Today&apos;s sunrise, sunset and golden hours from your GPS location, with a live countdown
+          to the next golden hour and a street-photography tip for the phase you&apos;re in.
+        </p>
+        <p>
+          <a href="/apps/golden-hour">Open in browser →</a>
         </p>
       </article>
 
