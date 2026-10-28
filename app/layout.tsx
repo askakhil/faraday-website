@@ -25,7 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="footer">
           Faraday — Far a day. Free, open-source browser apps for cars.
           <br />
-          <a href="https://github.com/akhilsaikoppanatham">GitHub</a>
+          <a href="https://github.com/askakhil">GitHub</a>
         </footer>
       </body>
     </html>
