@@ -44,7 +44,7 @@ export default function Home() {
         </p>
         <div className="cta-row" style={{ justifyContent: "flex-start" }}>
           <a className="btn" href="https://tesla-signal-app.vercel.app">Try the live demo →</a>
-          <a className="btn secondary" href="https://github.com/akhilsaikoppanatham/tesla-signal-app">GitHub</a>
+          <a className="btn secondary" href="https://github.com/askakhil/tesla-signal-app">GitHub</a>
         </div>
       </article>
     </>
